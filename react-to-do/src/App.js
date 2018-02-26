@@ -65,7 +65,6 @@ class App extends Component {
         {/*handleSubmit method*/}
         <form onSubmit={e => this.handleSubmit(e)}>
           {" "}
-          {/*Add onChange event listener and arrow function that accepts e and calls this.handleChange, passig it the e  arguement.*/}
           <input
             type="text"
             value={this.state.newTodoDescription}
